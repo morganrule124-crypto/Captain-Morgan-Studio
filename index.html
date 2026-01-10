@@ -23,20 +23,20 @@
 
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.6rem;
       font-weight: 600;
     }
 
     header p {
       margin-top: 0.5rem;
-      color: #555;
+      color: #666;
     }
 
     nav {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      padding: 0 1.5rem 2rem;
+      padding: 0 1.5rem 2.5rem;
       font-size: 0.95rem;
       flex-wrap: wrap;
     }
@@ -66,267 +66,15 @@
 
     .section h2 {
       margin-bottom: 0.5rem;
-      font-size: 1.8rem;
+      font-size: 1.9rem;
     }
 
-    /* Gallery layout */
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 1.5rem;
       margin-top: 1.5rem;
     }
 
     .original-item {
-      background: #fff;
-      border: 1px solid #ddd;
-      padding: 1rem;
-    }
-
-    .original-item img {
-      width: 100%;
-      height: auto;
-      display: block;
-      margin-bottom: 0.75rem;
-      border: 1px solid #eee;
-    }
-
-    .original-item h3 {
-      margin: 0.25rem 0 0.25rem;
-      font-size: 1.05rem;
-      font-weight: 500;
-    }
-
-    .original-item p {
-      margin: 0;
-      color: #555;
-    }
-
-    .buy-btn {
-      display: inline-block;
-      margin-top: 0.6rem;
-      padding: 0.4rem 0.9rem;
-      border: 1px solid #1a1a1a;
-      color: #1a1a1a;
-      text-decoration: none;
-      font-size: 0.85rem;
-    }
-
-    .buy-btn:hover {
-      background: #1a1a1a;
-      color: #fff;
-    }
-
-    footer {
-      text-align: center;
-      padding: 3rem 1.5rem;
-      font-size: 0.85rem;
-      color: #666;
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <h1>Captain Morgan Studio</h1>
-    <p>Morgan Rule</p>
-  </header>
-
-  <nav>
-    <a href="#originals">Originals</a>
-    <a href="#prints">Fine Prints</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <div class="intro">
-    <h2>Colorful Acrylic Landscapes</h2>
-    <p>Original paintings and fine art prints inspired by the Georgia coast and nature’s palette.</p>
-  </div>
-
-  <section id="originals" class="section">
-    <h2>Original Paintings</h2>
-    <p>Acrylic on canvas · One of a kind</p>
-
-    <div class="gallery">
-      <div class="original-item">
-        <img loading="lazy" src="images/Creek%20Run%201%20MorganRule_December2025_Paintings_WEBResJPG_11.jpg" alt="Creek Run 1 acrylic painting" />
-        <h3>Creek Run 1 — 30 × 48</h3>
-        <p>$720</p>
-        <a class="buy-btn" href="https://buy.stripe.com/5kQ14o4oO1IUdTlcjGgIo0j" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/The%20Incoming%201MorganRule_December2025_Paintings_WEBResJPG_5.jpg" alt="The Incoming 1 acrylic painting" />
-        <h3>The Incoming 1 — 30 × 30</h3>
-        <p>$450</p>
-        <a class="buy-btn" href="https://buy.stripe.com/5kQ3cwdZocny4iL2J6gIo0i" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/The%20Incoming%202MorganRule_December2025_Paintings_WEBResJPG_7.jpg" alt="The Incoming 2 acrylic painting" />
-        <h3>The Incoming 2 — 24 × 24</h3>
-        <p>$288</p>
-        <a class="buy-btn" href="https://buy.stripe.com/3cI28saNc9bm4iL4RegIo0h" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/The%20Incoming%203%20Morgan%20Rule.jpg" alt="The Incoming 3 acrylic painting" />
-        <h3>The Incoming 3 — 24 × 24</h3>
-        <p>$288</p>
-        <a class="buy-btn" href="https://buy.stripe.com/5kQaEY4oOgDOeXp0AYgIo0g" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/The%20incoming%204.jpg" alt="The Incoming 4 acrylic painting" />
-        <h3>The Incoming 4 — 30 × 30</h3>
-        <p>$450</p>
-        <a class="buy-btn" href="https://buy.stripe.com/aFa5kEcVkdrC16zerOgIo0f" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/creek%20run%202.jpg" alt="Creek Run 2 acrylic painting" />
-        <h3>Creek Run 2 — 36 × 48</h3>
-        <p>$864</p>
-        <a class="buy-btn" href="https://buy.stripe.com/7sY28saNcdrCeXpbfCgIo0e" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/wave%20abstract.jpg" alt="Wave Abstract acrylic painting" />
-        <h3>Wave Abstract — 30 × 30</h3>
-        <p>$450</p>
-        <a class="buy-btn" href="https://buy.stripe.com/fZucN6aNcgDO2aD97ugIo0d" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/Cockspurs%20islandMorganRule_Paintings_2024_3.jpg" alt="Cockspur Island acrylic painting" />
-        <h3>Cockspur Island — 24 × 36</h3>
-        <p>$432</p>
-        <a class="buy-btn" href="https://buy.stripe.com/fZucN6dZo2MY4iL0AYgIo0c" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/creekrun%203MorganRule_December2025_Paintings_WEBResJPG_2.jpg" alt="Creek Run 3 acrylic painting" />
-        <h3>Creek Run 3 — 24 × 36</h3>
-        <p>$432</p>
-        <a class="buy-btn" href="https://buy.stripe.com/28E00kbRggDO2aD4RegIo0b" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/the%20blue%201.jpg" alt="The Blue 1 acrylic painting" />
-        <h3>The Blue 1 — 18 × 24</h3>
-        <p>$216</p>
-        <a class="buy-btn" href="https://buy.stripe.com/fZu5kE7B0fzK4iLfvSgIo0a" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/The%20blue%202MorganRule_Paintings_2024_8.jpg" alt="The Blue 2 acrylic painting" />
-        <h3>The Blue 2 — 24 × 36</h3>
-        <p>$432</p>
-        <a class="buy-btn" href="https://buy.stripe.com/7sY00kf3sgDO5mPdnKgIo09" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-
-      <div class="original-item">
-        <img loading="lazy" src="images/Incoming%205MorganRule_December2025_Paintings_WEBResJPG_10.jpg" alt="The Incoming 5 acrylic painting" />
-        <h3>The Incoming 5 — 30 × 30</h3>
-        <p>$450</p>
-        <a class="buy-btn" href="https://buy.stripe.com/8x2aEY4oO3R22aDdnKgIo00" target="_blank" rel="noopener noreferrer">Buy Original</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="prints" class="section">
-    <h2>Fine Prints</h2>
-    <p>Archival giclée · Open edition · Signed upon request</p>
-
-    <div class="gallery">
-      <div class="original-item">
-        <h3>Fine Print Breakthrough — 11 × 14</h3>
-        <p>$100</p>
-        <a class="buy-btn" href="https://buy.stripe.com/fZudRa5sS0EQaH997ugIo08" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print Back River — 11 × 14</h3>
-        <p>$100</p>
-        <a class="buy-btn" href="https://buy.stripe.com/9B6dRa6wW87i16z97ugIo07" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print Shrimpboat Sunset — 11 × 14</h3>
-        <p>$100</p>
-        <a class="buy-btn" href="https://buy.stripe.com/9B6cN6dZoevGaH93NagIo06" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print — 11 × 14</h3>
-        <p>$100</p>
-        <a class="buy-btn" href="https://buy.stripe.com/14A14o3kKafqg1t6ZmgIo05" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print The Architect Duct — 16 × 20</h3>
-        <p>$130</p>
-        <a class="buy-btn" href="https://buy.stripe.com/dRm7sM4oO87i6qT97ugIo04" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print Cockspur's Island — 11 × 14</h3>
-        <p>$100</p>
-        <a class="buy-btn" href="https://buy.stripe.com/3cIeVeg7w9bm16zcjGgIo03" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print Purple Sunset — 11 × 14</h3>
-        <p>$100</p>
-        <a class="buy-btn" href="https://buy.stripe.com/14A7sM2gG9bmaH9fvSgIo02" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-
-      <div class="original-item">
-        <h3>Fine Print The Washout — 16 × 20</h3>
-        <p>$130</p>
-        <a class="buy-btn" href="https://buy.stripe.com/14AcN63kK4V68z10AYgIo01" target="_blank" rel="noopener noreferrer">Buy Fine Print</a>
-      </div>
-    </div>
-
-    <p style="margin-top: 1.5rem;">
-      Looking for a custom print size or a specific piece? <a href="#contact">Contact me</a> and tell me
-      which artwork you’re interested in, the size you want, and whether you’d like it signed.
-    </p>
-
-    <p style="margin-top: 0.75rem;">
-      For custom originals, <a href="#contact">contact me</a> to choose a canvas size and send reference photos
-      or a short description of your inspiration (colors, mood, location, time of day, etc.).
-    </p>
-  </section>
-
-  <section id="about" class="section">
-    <h2>About the Artist</h2>
-    <p>
-      Morgan Rule is an acrylic landscape artist inspired by the natural beauty of the Georgia coast.
-      Through large-scale, colorful canvases, Morgan captures the quiet atmosphere of marshes, skies,
-      waterways, and ocean horizons using a soft sunrise palette.
-    </p>
-    <p>
-      Morgan is an OUPV captain from the Georgia Lowcountry and is currently majoring in marine biology
-      with a focus on scientific diving. Time spent navigating coastal waters and studying marine systems
-      informs the work—shaping both subject matter and an attention to light, movement, and place.
-    </p>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>
-      Email:
-      <a href="mailto:morganrule124@gmail.com">morganrule124@gmail.com</a><br />
-      Instagram:
-      <a href="https://instagram.com/rule.morgan" target="_blank" rel="noopener noreferrer">@rule.morgan</a> ·
-      <a href="https://instagram.com/captainmorganstudio" target="_blank" rel="noopener noreferrer">@captainmorganstudio</a>
-    </p>
-  </section>
-
-  <footer>
-    © Captain Morgan Studio
-  </footer>
-</body>
-</html>
+      background: #ff
