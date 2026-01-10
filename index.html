@@ -23,20 +23,20 @@
 
     header h1 {
       margin: 0;
-      font-size: 2.6rem;
+      font-size: 2.5rem;
       font-weight: 600;
     }
 
     header p {
       margin-top: 0.5rem;
-      color: #666;
+      color: #555;
     }
 
     nav {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      padding: 0 1.5rem 2.5rem;
+      padding: 0 1.5rem 2rem;
       font-size: 0.95rem;
       flex-wrap: wrap;
     }
@@ -66,12 +66,12 @@
 
     .section h2 {
       margin-bottom: 0.5rem;
-      font-size: 1.9rem;
+      font-size: 1.8rem;
     }
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 1.5rem;
       margin-top: 1.5rem;
     }
@@ -83,7 +83,7 @@
     }
 
     .original-item h3 {
-      margin: 0 0 0.25rem;
+      margin: 0.25rem 0 0.25rem;
       font-size: 1.05rem;
       font-weight: 500;
     }
@@ -96,7 +96,7 @@
     .buy-btn {
       display: inline-block;
       margin-top: 0.6rem;
-      padding: 0.45rem 0.9rem;
+      padding: 0.4rem 0.9rem;
       border: 1px solid #1a1a1a;
       color: #1a1a1a;
       text-decoration: none;
@@ -216,23 +216,28 @@
 </section>
 
 <section id="prints" class="section">
-  <h2>Fine Prints</h2>
+  <h2>Fine Art Prints</h2>
   <p>Archival giclée · Open edition · Signed upon request</p>
 
-  <div class="gallery">
-    <div class="original-item">
-      <h3>Fine Art Prints</h3>
-      <p>Available sizes:</p>
-      <p>
-        6 × 7.5 — $25<br>
-        11 × 14 — $100<br>
-        16 × 20 — $130<br>
-        24 × 30 — $150<br>
-        40 × 50 — $300
-      </p>
-      <a class="buy-btn" href="https://buy.stripe.com/fZudRa5sS0EQaH997ugIo08" target="_blank">Buy Fine Print</a>
-    </div>
+  <div class="original-item">
+    <h3>Available Sizes</h3>
+    <p>
+      6 × 7.5 — $25<br>
+      11 × 14 — $100<br>
+      16 × 20 — $130<br>
+      24 × 30 — $150<br>
+      40 × 50 — $300
+    </p>
+    <p style="margin-top: 0.75rem;">
+      To purchase a print, select your preferred size at checkout or
+      <a href="#contact">contact me</a> for custom sizing or signing requests.
+    </p>
   </div>
+
+  <p style="margin-top: 1.5rem;">
+    For custom originals, <a href="#contact">contact me</a> to choose a canvas size and send reference photos
+    or a short description of your inspiration (colors, mood, location, time of day).
+  </p>
 </section>
 
 <section id="about" class="section">
@@ -260,4 +265,3 @@
 
 </body>
 </html>
-
